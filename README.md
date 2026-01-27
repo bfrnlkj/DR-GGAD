@@ -13,7 +13,7 @@ pip install --no-index torch-spline-conv -f https://pytorch-geometric.com/whl/to
 pip install torch-geometric==2.3.1
 ```
 # Dataset
-Download the dataset from [here](https://github.com/yixinliu233/ARC.git)
+Download the dataset from [here](https://github.com/yixinliu233/ARC.git). 
 Our code is based on the [ARC](https://github.com/yixinliu233/ARC.git) repository.
 
 
