@@ -2,8 +2,6 @@
 DR-GGAD: Dual Residual Centering for Mitigating Anomaly Non‑Discriminativity in Generalist Graph Anomaly Detection![framework](./DR-GGAD-2.png)
 # Setup
 ```
-conda create -n ARCGAD python=3.8
-conda activate ARCGAD
 pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu121
 
 pip install --no-index torch-scatter -f https://pytorch-geometric.com/whl/torch-2.1.2+cu121.html
