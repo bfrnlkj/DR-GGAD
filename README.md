@@ -13,4 +13,5 @@ pip install --no-index torch-spline-conv -f https://pytorch-geometric.com/whl/to
 pip install torch-geometric==2.3.1
 ```
 # Dataset
-We conduct experiments on the ARC dataset, which is publicly released by the authors and available at \url{https://github.com/yixinliu233/ARC.git}.
+Download the dataset from [here](https://github.com/yixinliu233/ARC.git)
+Our code is based on the [ARC](https://github.com/yixinliu233/ARC.git) repository.
