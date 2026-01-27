@@ -1,5 +1,5 @@
 # DR-GGAD
-DR-GGAD: Dual Residual Centering for Mitigating Anomaly Non‑Discriminativity in Generalist Graph Anomaly Detection
+DR-GGAD: Dual Residual Centering for Mitigating Anomaly Non‑Discriminativity in Generalist Graph Anomaly Detection![framework](./DR-GGAD-2.png)
 # Setup
 ```
 conda create -n ARCGAD python=3.8
@@ -15,3 +15,8 @@ pip install torch-geometric==2.3.1
 # Dataset
 Download the dataset from [here](https://github.com/yixinliu233/ARC.git)
 Our code is based on the [ARC](https://github.com/yixinliu233/ARC.git) repository.
+
+
+```python
+python main.py
+```
