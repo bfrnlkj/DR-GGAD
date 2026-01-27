@@ -12,3 +12,5 @@ pip install --no-index torch-cluster -f https://pytorch-geometric.com/whl/torch-
 pip install --no-index torch-spline-conv -f https://pytorch-geometric.com/whl/torch-2.1.2+cu121.html
 pip install torch-geometric==2.3.1
 ```
+# Dataset
+We conduct experiments on the ARC dataset, which is publicly released by the authors and available at \url{https://github.com/yixinliu233/ARC.git}.
