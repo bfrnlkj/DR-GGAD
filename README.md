@@ -3,6 +3,10 @@
 ## Abstract
 Generalist Graph Anomaly Detection (GGAD) seeks a unified representation learning model to detect anomalies in unseen graphs, but cross-domain transfer often entangles the learned anomalous and normal representations. We formalize this degradation as Anomaly non-Discriminativity (AnD) and define a normalized score to quantify it. We present DR-GGAD, which avoids direct comparison between anomalous and normal nodes via two residual modules: 1) a multi-scale Hyper Residual (HR) Center measuring node-to-center distances, yielding a compact normal residual structure with margin-pushed anomalies; 2) an Affinity-Residual (AR) module enforcing local residual directional consistency to recover structural separability. With frozen parameters (no target fine-tuning), DR-GGAD fuses both signals into a unified score. On 8 benchmark target graphs, it achieves new SOTA: mean AUROC +5.14% over the best prior GGAD, with large gains on high-AnD datasets (ACM +9.96%, Amazon +7.48%) and strong AUPRC boosts (Amazon +17.12%, CiteSeer +17.77%). Ablations confirm complementary roles of the two modules. DR-GGAD thus establishes AnD as a measurable bottleneck and delivers robust cross-domain anomaly detection.
 
+## Dataset Preparation
+
+We follow the same dataset splits and preprocessing as **[ARC (A Generalist Graph Anomaly Detector with In-Context Learning)](https://github.com/yixinliu233/ARC)**. Please refer to their repository for dataset download and preparation details.
+
 ## 🛠️ Requirements
 
 ### Environment Setup
